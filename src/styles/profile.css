@@ -1,0 +1,82 @@
+.Profile-content {
+  background-color: #f1f1f1;
+}
+.Profile-content .container {
+  display: flex;
+}
+.Profile-content .container > * {
+  background-color: #fff;
+  margin: 40px 0;
+}
+.Profile-left {
+  margin-right: 20px !important;
+  flex: 0 0 20%;
+}
+.Profile-right {
+  flex: 1;
+}
+.Profile-left-header {
+  text-align: center;
+  padding: 20px;
+}
+.Profile-left img {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+.Profile-left-nav {
+  list-style: none;
+  margin-top: 30px;
+}
+.Profile-left-nav a {
+  display: block;
+  text-decoration: none;
+  border-bottom: 1px solid #f1f1f1;
+  color: #777;
+  padding: 10px 15px;
+  transition: all 0.3s;
+}
+.Profile-left-nav a:hover {
+  background-color: #0de0fe;
+  color: #fff;
+}
+.Profile-table tr {
+  transition: all 0.3s;
+}
+.Profile-table tr:hover {
+  background-color: #f1f1f1;
+}
+.Profile-table tbody tr td:first-of-type {
+  display: flex;
+}
+.Profile-table img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.Profile-table p {
+  margin-bottom: 0;
+}
+.ProfileSetting {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProfileSetting h3 {
+  margin-bottom: 30px;
+}
+.ProfileSetting input {
+  border: none;
+  outline: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #555;
+  display: inline-block;
+  width: 100%;
+}
+.ProfileSetting input:first-of-type {
+  margin-bottom: 30px;
+}

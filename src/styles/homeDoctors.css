@@ -1,0 +1,22 @@
+.HomeDoctors {
+  padding: 60px 0;
+}
+.HomeDoctors img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+.HomeDoctors-showcase {
+  display: flex;
+}
+.SingleDoctorShow {
+  margin-top: 30px;
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  margin: 0 20px;
+  padding-bottom: 20px;
+}
+.SingleDoctorShow p {
+  font-size: 90%;
+}

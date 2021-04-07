@@ -1,0 +1,18 @@
+.Service {
+  padding: 60px 0;
+}
+
+.Service-content {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.SingleService {
+  margin-bottom: 40px;
+  padding: 10px 20px;
+}
+.SingleService-icon {
+  color: #3d5ee9;
+  font-size: 30px !important;
+  display: inline-block;
+  margin-bottom: 20px;
+}

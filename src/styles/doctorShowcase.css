@@ -1,0 +1,48 @@
+.DoctorShowcase {
+  background-color: #f1f1f1;
+}
+.DoctorShowcase-content img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.DoctorShowcase-content {
+  /* width: 70%;
+  margin: 0 auto; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 60px;
+}
+.DoctorShowcase-content-single {
+  margin-right: 20px;
+  margin-bottom: 40px;
+  border: 1px solid #f1f1f1;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+.DoctorShowcase-content-single:hover {
+  box-shadow: 0 15px 10px rgba(0, 0, 0, 0.25);
+}
+.DoctorShowcase-text {
+  padding: 0 30px;
+  padding-bottom: 30px;
+}
+.DoctorShowcase-rating {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: orange;
+}
+.DoctorShowcase-metadata {
+  color: #777;
+  margin-bottom: 10px;
+}
+.DoctorShowcase-metadata i {
+  margin-right: 15px;
+}
+.DoctorShowcase-btn-group a {
+  margin-top: 10px;
+}
+.DoctorShowcase-btn-group a:first-of-type {
+  margin-right: 20px;
+}

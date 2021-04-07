@@ -1,0 +1,51 @@
+.DoctorProfileTop {
+  padding: 30px;
+  margin-top: 30px;
+}
+.DoctorProfileTop img {
+  width: 150px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 30px;
+}
+.DoctorProfileTop .container {
+  display: flex;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 3px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+.DoctorProfileTop-description h3 {
+  margin-bottom: 7px;
+}
+.DoctorProfileTop-description p {
+  margin-bottom: 20px;
+}
+.DoctorProfileTop-description .department {
+  color: #20c0f3;
+  margin-bottom: 15px;
+}
+
+.DoctorProfileTop-rating-star {
+  color: orange;
+}
+.DoctorProfileTop-rating-num {
+  margin-left: 7px;
+}
+.DoctorProfileTop-info {
+  margin-left: auto;
+  color: #777;
+}
+.DoctorProfileTop-info i {
+  margin-right: 20px;
+}
+.DoctorProfileTop-info div {
+  margin-bottom: 10px;
+}
+.DoctorProfileTop-info .contact i {
+  cursor: pointer;
+  border: 1px solid #777;
+  margin-top: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}

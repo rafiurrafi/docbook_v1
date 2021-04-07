@@ -1,0 +1,17 @@
+.About {
+  padding: 60px 0;
+}
+.About .container {
+  display: flex;
+}
+.About-image {
+  width: 30vw;
+  margin-right: 60px;
+}
+.About-content {
+  align-self: center;
+}
+
+.About-content p {
+  margin-bottom: 20px;
+}

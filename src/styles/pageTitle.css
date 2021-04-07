@@ -1,0 +1,9 @@
+.PageTitle {
+  padding: 20px 0;
+  background-color: #15558d;
+  color: #fff;
+}
+.PageTitle h2 {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}

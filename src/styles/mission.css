@@ -1,0 +1,19 @@
+.Mission {
+  background-color: #f1f1f1;
+  padding: 40px 0;
+}
+.Mission .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.SingleMission {
+  display: flex;
+  margin-right: 30px;
+}
+.SingleMission-icon {
+  font-size: 35px;
+  color: #3d5ee9;
+  margin-right: 20px;
+  padding-top: 10px;
+}

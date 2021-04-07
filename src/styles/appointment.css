@@ -1,0 +1,43 @@
+.Appointments {
+  padding: 60px 0;
+}
+.Appointments .container {
+  display: flex;
+}
+.Appointments .container > * {
+  padding: 40px;
+}
+.Appointments h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.Appointments .form-group {
+  display: block;
+}
+
+.Appointments .form-group.form-50 {
+  width: 46%;
+  display: inline-block;
+}
+
+.Appointments input,
+.Appointments textarea,
+.Appointments select {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-bottom: 1px solid #000;
+  margin-bottom: 20px;
+}
+.form-mr {
+  margin-right: 40px;
+}
+.AppointmentHint > * {
+  border-bottom: 1px solid #777;
+  margin-bottom: 30px;
+}
+.Appointments-form {
+  border: 1px solid #f1f1f1;
+}

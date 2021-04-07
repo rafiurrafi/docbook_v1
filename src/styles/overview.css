@@ -1,0 +1,42 @@
+.Overview .container {
+  background-color: #fff;
+  padding: 30px;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.15);
+}
+.Overview-content {
+  width: 70%;
+}
+.Overview-content > div {
+  margin-bottom: 40px;
+}
+.Overview-educations {
+  padding-left: 30px;
+  border-left: 2px solid #f1f1f1;
+  position: relative;
+}
+.Overview-education-single {
+  margin-bottom: 30px;
+}
+.Overview-education-single::before {
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  border: 2px solid #20c0f3;
+  position: absolute;
+  left: -8px;
+  top: 3px;
+}
+.second-overview::before {
+  top: 100px;
+}
+.second-work::before {
+  top: 75px;
+}
+.Overview-service ul {
+  list-style-type: none;
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
+}

@@ -1,0 +1,50 @@
+.NavLogged {
+  position: relative;
+  /* margin-right: 40px; */
+  width: 100px;
+}
+.NavLogged-profile {
+  position: absolute;
+  width: 150px;
+  /* background-color: red; */
+  margin-top: 5px;
+  background-color: #f1f1f1;
+  margin-left: -20px;
+  border-radius: 3px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-out;
+}
+.NavLogged-profile.active {
+  opacity: 1;
+  visibility: visible;
+}
+.NavLogged-profile a {
+  display: block;
+  color: #3d5ee9;
+  text-decoration: none;
+  font-size: 80%;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  transition: all 0.4s;
+}
+.NavLogged-profile a:hover {
+  background-color: #3d5ee9;
+  color: #fff;
+}
+.NavLogged-signin-btn {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 3px;
+  margin-top: 3px;
+  transition: all 0.3s ease-in-out;
+}
+.NavLogged-signin-btn.not-home {
+  color: #3d5ee9;
+}
+.NavLogged-signin-btn:hover {
+  background-color: #3d5ee9;
+  color: #fff;
+}

@@ -1,0 +1,38 @@
+.Testimonial {
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  position: relative;
+  color: #fff;
+
+  letter-spacing: 1px;
+  line-height: 1.5;
+}
+.Testimonial-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.Testimonial blockquote {
+  font-style: italic;
+  margin-bottom: 20px;
+  font-size: 85%;
+}
+.Testimonial cite {
+  display: flex;
+  align-items: center;
+}
+
+.Testimonial img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-right: 25px;
+}
+.Testimonial cite p {
+  font-size: 85%;
+  color: #fff;
+}

@@ -1,0 +1,33 @@
+.Signin-content {
+  background-color: #f1f1f1;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Signin-form {
+  margin-top: -10%;
+  width: 40%;
+  background-color: #fff;
+  padding: 20px 40px;
+}
+
+.Signin-btn-group {
+  text-align: right;
+}
+.Signin-form label {
+  color: #3d5ee9;
+}
+.Signin-form input {
+  width: 80%;
+  display: block;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #777;
+}
+.Signin-btn-group a:last-of-type {
+  margin-left: 30px;
+}
+.Signin-errMsg {
+  color: tomato;
+}
